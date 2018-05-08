@@ -14,7 +14,7 @@ body{
     padding: 10px;
     margin-left: 10px;
     background: white;
-    display: none;
+    display:none;
   }
   .popover::before{
     position: absolute;
