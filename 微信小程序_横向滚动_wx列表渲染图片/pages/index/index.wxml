@@ -1,0 +1,17 @@
+<!--水平滚动-->
+<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+<!--  display: inline-block-->
+  <block wx:for="{{imgList}}" wx:for-item="item">
+    <image src='{{item}}' style="width: 200px; height: 100px; display: inline-block"></image>
+  <!--
+    <image src='../../2.jpg' style="width: 200px; height: 100px; display: inline-block"></image>
+    <image src='../../3.jpg' style="width: 200px; height: 100px; display: inline-block"></image>
+    <image src='../../4.jpg' style="width: 200px; height: 100px; display: inline-block"></image>
+    <image src='../../5.jpg' style="width: 200px; height: 100px; display: inline-block"></image>
+  -->
+  </block>
+  <view style="background: red; width: 200px; height: 100px; display: inline-block" ></view>
+  <view style="background: green; width: 200px; height: 100px; display: inline-block"></view>
+  <view style="background: blue; width: 200px; height: 100px; display: inline-block"></view>
+  <view style="background: yellow; width: 200px; height: 100px; display: inline-block"></view>
+</scroll-view>
