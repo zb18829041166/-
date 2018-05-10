@@ -57,5 +57,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  onPostTap: function (event) {
+    var imgSrc = event.currentTarget.dataset.postid;
+    console.log(imgSrc);
   }
 })
