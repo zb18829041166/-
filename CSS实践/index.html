@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0
+        }
+
+
+        .单行省略号 {
+            border: 2px solid red;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .多行省略号 {
+            border: 2px solid gray;
+            display: -webkit-box;
+            -webkit-line-clamp: 6;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .文字垂直居中 {
+            border: 2px solid red;
+            line-height: 24px;
+            padding: 8px;
+        }
+
+        .文字两端对齐 {
+            display: inline-block;
+            width: 5em;
+            text-align: justify;
+            line-height: 20px;
+            height: 20px;
+        }
+        .文字两端对齐::after{
+            content: "";
+            display: inline-block;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="单行省略号">
+       这里是单行省略号 11111111111111111111111111111111111111111111111111111111111111111111111 1111111111111111111111 111111111111111111111111111111111111111111111111111111111
+    </div>
+
+
+    <div class="多行省略号">
+        这里是多行省略号1 2 3 4 5 6 1 11111111111111111111111111111 11111111111111111111 11111111111111111111111111111111 111111111111111111111111111111111
+        11111111111111 11111111111111 111111111111
+    </div>
+
+    <div class='文字垂直居中'>
+        这里是文字垂直居中：今天学习CSS深入浅出第二课
+    </div>
+
+    <div>
+        <span class="文字两端对齐">
+
+            姓名
+        </span>
+        <br>
+        <span class="文字两端对齐">
+            联系方式
+
+        </span>
+
+    </div>
+
+</body>
+
+</html>
