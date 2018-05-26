@@ -25,6 +25,4 @@ class Tabs{
 
 
 
-
-
 var tabs = new Tabs('.xxx')    
