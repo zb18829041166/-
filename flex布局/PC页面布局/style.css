@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 100px;
+    background-color: gray;
+}
+
+footer{
+    height: 100px;
+    background-color: gray;
+}
+
+.content{
+    height: 400px;
+    display: flex;
+}
+
+aside{
+    width: 100px;
+    background-color:gold;
+}
+
+main{
+    flex: 1;
+    background-color:green;
+}
+
+nav{
+    width: 100px;
+    background-color:red;
+}

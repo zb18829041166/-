@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    margin: auto;
+    border: 1px solid red;
+    justify-content:space-between;
+}
+
+li{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    margin: 10px 0;
+}
