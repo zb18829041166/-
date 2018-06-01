@@ -1,0 +1,3 @@
+<view class='parent' bindtouchstart="ballMoveEvent"></view>
+<view class="son" >1</view>
+<view class='brother'>2</view>
